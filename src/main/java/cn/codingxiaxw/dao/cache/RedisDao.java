@@ -39,6 +39,7 @@ public class RedisDao {
         try {
             if (!hasJedis) {
                 jedis = jedisPool.getResource();
+                System.out.println("888888888888");
             }
             try {
                 String key = getSeckillRedisKey(seckillId);
