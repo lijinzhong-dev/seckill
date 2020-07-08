@@ -17,7 +17,7 @@ public interface SeckillDao
      * 减库存
      * @param seckillId
      * @param killTime
-     * @return 如果影响行数>1，表示更新库存的记录行数
+     * @return 如果影响行数>1，表示更新库存的记录行数  ljz
      */
     int reduceNumber(@Param("seckillId") long seckillId, @Param("killTime") Date killTime);
 
